@@ -36,7 +36,7 @@ public class JDBCUtils {
     public static Properties prepareProperties() {
         Properties properties = new Properties();
         properties.setProperty("user", "root");
-        properties.setProperty("password", "199085rayray");//database password
+        properties.setProperty("password", "PASSWORD");//database password
         properties.setProperty("useSSL", "false");
         properties.setProperty("autoReconnect", "true");
         properties.setProperty("serverTimezone","GMT");
