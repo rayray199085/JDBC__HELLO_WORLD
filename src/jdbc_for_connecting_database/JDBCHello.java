@@ -10,7 +10,7 @@ public class JDBCHello {
     private ResultSet resultSet = null;
     private Statement statement = null;
     private Connection connection = null;
-    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/xiaohema_database"; // database name
+    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/DATABASE_NAME"; // database name
     private static final String DRIVER_MANAGER = "com.mysql.cj.jdbc.Driver";
 
     public void jdbcQuery() {
